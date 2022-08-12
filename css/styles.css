@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	background-image: url("../multimedia/background.jpg");
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+main {
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	width: 100%;
+	padding: 40px;
+}
+
+.pag {
+	border-width: 3px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 5%;
+}
+
+.txt {
+	color: #b3b3b3;
+}
+
+@media screen and (max-width: 1628px) {
+	body {
+		transition: 0s;
+		background-image: url("../multimedia/background.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: center center;
+	}
+}
